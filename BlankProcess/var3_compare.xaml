@@ -76,7 +76,7 @@
         <OutArgument x:TypeArguments="x:Int32">[var2]</OutArgument>
       </ui:InputDialog.Result>
     </ui:InputDialog>
-    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" Title="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="1471,238" sap2010:WorkflowViewState.IdRef="InputDialog_3" IsPassword="False" Label="세번번째 정수를 입력하세요">
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" Title="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="1471,238" sap2010:WorkflowViewState.IdRef="InputDialog_3" IsPassword="False" Label="세번째 정수를 입력하세요">
       <ui:InputDialog.Result>
         <OutArgument x:TypeArguments="x:Int32">[var3]</OutArgument>
       </ui:InputDialog.Result>
