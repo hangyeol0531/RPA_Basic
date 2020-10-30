@@ -1373,19 +1373,48 @@
           <av:Size x:Key="ShapeSize">200,66</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="124p" sap:VirtualizedContainerService.HintSize="913,2786" sap2010:WorkflowViewState.IdRef="Sequence_146">
+      <Sequence DisplayName="124p" sap:VirtualizedContainerService.HintSize="913,3086" sap2010:WorkflowViewState.IdRef="Sequence_146">
+        <Sequence.Variables>
+          <Variable x:TypeArguments="x:String" Name="web1" />
+          <Variable x:TypeArguments="x:String" Name="web2" />
+          <Variable x:TypeArguments="x:String" Name="web3" />
+        </Sequence.Variables>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
+        <Assign sap:VirtualizedContainerService.HintSize="871,60" sap2010:WorkflowViewState.IdRef="Assign_7">
+          <Assign.To>
+            <OutArgument x:TypeArguments="x:String">[web1]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="x:String">https://acme-test.uipath.com/login</InArgument>
+          </Assign.Value>
+        </Assign>
+        <Assign sap:VirtualizedContainerService.HintSize="871,60" sap2010:WorkflowViewState.IdRef="Assign_8">
+          <Assign.To>
+            <OutArgument x:TypeArguments="x:String">[web2]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="x:String">https://www.fakenamegenerator.com/</InArgument>
+          </Assign.Value>
+        </Assign>
+        <Assign sap:VirtualizedContainerService.HintSize="871,60" sap2010:WorkflowViewState.IdRef="Assign_9">
+          <Assign.To>
+            <OutArgument x:TypeArguments="x:String">[web3]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="x:String">https://www.knoc.co.kr/index.jsp</InArgument>
+          </Assign.Value>
+        </Assign>
         <Sequence DisplayName="웹" sap:VirtualizedContainerService.HintSize="871,2694" sap2010:WorkflowViewState.IdRef="Sequence_145">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="https://acme-test.uipath.com/login 열기" sap:VirtualizedContainerService.HintSize="829,2602" sap2010:WorkflowViewState.IdRef="OpenBrowser_7" Url="https://acme-test.uipath.com/login">
+          <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="https://acme-test.uipath.com/login 열기" sap:VirtualizedContainerService.HintSize="829,2602" sap2010:WorkflowViewState.IdRef="OpenBrowser_7" Url="[web1]">
             <ui:OpenBrowser.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
@@ -1473,7 +1502,7 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="https://www.fakenamegenerator.com/ 열기" sap:VirtualizedContainerService.HintSize="585,1223" sap2010:WorkflowViewState.IdRef="OpenBrowser_8" Url="https://www.fakenamegenerator.com/">
+                          <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="https://www.fakenamegenerator.com/ 열기" sap:VirtualizedContainerService.HintSize="585,1223" sap2010:WorkflowViewState.IdRef="OpenBrowser_8" Url="[web2]">
                             <ui:OpenBrowser.Body>
                               <ActivityAction x:TypeArguments="x:Object">
                                 <ActivityAction.Argument>
@@ -1515,7 +1544,7 @@
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="https://www.knoc.co.kr/index.jsp 열기" sap:VirtualizedContainerService.HintSize="467,537" sap2010:WorkflowViewState.IdRef="OpenBrowser_9" Url="https://www.knoc.co.kr/index.jsp">
+                                    <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="https://www.knoc.co.kr/index.jsp 열기" sap:VirtualizedContainerService.HintSize="467,537" sap2010:WorkflowViewState.IdRef="OpenBrowser_9" Url="[web3]">
                                       <ui:OpenBrowser.Body>
                                         <ActivityAction x:TypeArguments="x:Object">
                                           <ActivityAction.Argument>
