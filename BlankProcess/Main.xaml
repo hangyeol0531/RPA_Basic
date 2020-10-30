@@ -67,13 +67,14 @@
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart sap:VirtualizedContainerService.HintSize="634,636" sap2010:WorkflowViewState.IdRef="Flowchart_5">
+  <Flowchart sap:VirtualizedContainerService.HintSize="714,636" sap2010:WorkflowViewState.IdRef="Flowchart_5">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <av:Point x:Key="ShapeLocation">250,12.5</av:Point>
         <av:Size x:Key="ShapeSize">60,75</av:Size>
-        <av:PointCollection x:Key="ConnectorLocation">280,87.5 280,117.5 300,117.5 300,217</av:PointCollection>
+        <av:PointCollection x:Key="ConnectorLocation">280,87.5 280,117.5 290,117.5 290,287</av:PointCollection>
+        <x:Double x:Key="Width">680</x:Double>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
@@ -289,14 +290,14 @@
         </Sequence>
       </Sequence>
     </FlowStep>
-    <FlowStep x:Name="__ReferenceID0">
+    <FlowStep>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <av:Point x:Key="ShapeLocation">200,217</av:Point>
+          <av:Point x:Key="ShapeLocation">0,197</av:Point>
           <av:Size x:Key="ShapeSize">200,66</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence sap2010:Annotation.AnnotationText="//미국 USD 현찰 사실 때 환율 추출" DisplayName="Case4_텍스트 저장하기" sap:VirtualizedContainerService.HintSize="636,1503" sap2010:WorkflowViewState.IdRef="Sequence_63">
+      <Sequence sap2010:Annotation.AnnotationText="//미국 USD 현찰 사실 때 환율 추출" DisplayName="Case4_텍스트 저장하기" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_63">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -395,6 +396,208 @@
                           </ActivityAction>
                         </ui:ExcelApplicationScope.Body>
                       </ui:ExcelApplicationScope>
+                    </Sequence>
+                  </Sequence>
+                </Sequence>
+              </ActivityAction>
+            </ui:OpenBrowser.Body>
+          </ui:OpenBrowser>
+        </Sequence>
+      </Sequence>
+    </FlowStep>
+    <FlowStep x:Name="__ReferenceID0">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">190,287</av:Point>
+          <av:Size x:Key="ShapeSize">200,66</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence sap2010:Annotation.AnnotationText="//한국은행 100대 지표 엑셀 다운로드" DisplayName="열린재정" sap:VirtualizedContainerService.HintSize="788,2599" sap2010:WorkflowViewState.IdRef="Sequence_75">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <Sequence DisplayName="웹" sap:VirtualizedContainerService.HintSize="746,2507" sap2010:WorkflowViewState.IdRef="Sequence_77">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="http://www.openfiscaldata.go.kr/portal/main.do 열기" sap:VirtualizedContainerService.HintSize="704,2415" sap2010:WorkflowViewState.IdRef="OpenBrowser_2" Url="http://www.openfiscaldata.go.kr/portal/main.do">
+            <ui:OpenBrowser.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="670,2314" sap2010:WorkflowViewState.IdRef="Sequence_76">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="628,22" sap2010:WorkflowViewState.IdRef="MaximizeWindow_2" />
+                  <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="628,22" sap2010:WorkflowViewState.IdRef="Delay_5" />
+                  <Sequence DisplayName="기본" sap:VirtualizedContainerService.HintSize="628,2098" sap2010:WorkflowViewState.IdRef="Sequence_78">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'SPAN'" sap:VirtualizedContainerService.HintSize="586,106" sap2010:WorkflowViewState.IdRef="Click_29" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+                      <ui:Click.CursorPosition>
+                        <ui:CursorPosition OffsetX="32" OffsetY="12" Position="TopLeft" />
+                      </ui:Click.CursorPosition>
+                      <ui:Click.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d1094f3b-5213-4e4c-a7d5-3ea385285291" InformativeScreenshot="44d0e1c2b15bdc6f39f4ce18653d46f1" Selector="&lt;html title='기획재정부 재정정보공개시스템 열린재정' /&gt;&lt;webctrl idx='1' parentid='acsub_type2' tag='SPAN' /&gt;" WaitForReady="COMPLETE">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                        </ui:Target>
+                      </ui:Click.Target>
+                    </ui:Click>
+                    <Sequence DisplayName="기본" sap:VirtualizedContainerService.HintSize="586,1860" sap2010:WorkflowViewState.IdRef="Sequence_79">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'A '" sap:VirtualizedContainerService.HintSize="544,106" sap2010:WorkflowViewState.IdRef="Click_30" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+                        <ui:Click.CursorPosition>
+                          <ui:CursorPosition OffsetX="130" OffsetY="11" Position="TopLeft" />
+                        </ui:Click.CursorPosition>
+                        <ui:Click.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bebff7bb-d865-4b81-9ecc-fe754f63c340" InformativeScreenshot="8e1c30c19b1cb0a5b1254fabb19b6bdb" Selector="&lt;html title='재정통계 | 기획재정부 재정정보공개시스템 열린재정' /&gt;&lt;webctrl aaname='경제통계지표' idx='1' parentid='contents' tag='A' /&gt;" WaitForReady="COMPLETE">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                          </ui:Target>
+                        </ui:Click.Target>
+                      </ui:Click>
+                      <Sequence DisplayName="기본" sap:VirtualizedContainerService.HintSize="544,1622" sap2010:WorkflowViewState.IdRef="Sequence_84">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'A  http://www.openfisca...'" sap:VirtualizedContainerService.HintSize="502,106" sap2010:WorkflowViewState.IdRef="Click_33" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+                          <ui:Click.CursorPosition>
+                            <ui:CursorPosition OffsetX="51" OffsetY="1" Position="TopLeft" />
+                          </ui:Click.CursorPosition>
+                          <ui:Click.Target>
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e4b1a686-6b54-41ab-b88a-f847d0a98368" InformativeScreenshot="94156ff38736e0e9d49890aa68e4fb6f" Selector="&lt;html title='재정통계 | 기획재정부 재정정보공개시스템 열린재정' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;ul&amp;gt;li&amp;gt;ul&amp;gt;li&amp;gt;a' href='http://www.openfiscaldata.go.kr/portal/theme/eStatistics.do' parentid='contents' tag='A' /&gt;" WaitForReady="COMPLETE">
+                              <ui:Target.TimeoutMS>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:Target.TimeoutMS>
+                            </ui:Target>
+                          </ui:Click.Target>
+                        </ui:Click>
+                        <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="502,22" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                        <Sequence DisplayName="기본" sap:VirtualizedContainerService.HintSize="502,1322" sap2010:WorkflowViewState.IdRef="Sequence_87">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'A  openLink'" sap:VirtualizedContainerService.HintSize="460,106" sap2010:WorkflowViewState.IdRef="Click_37" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+                            <ui:Click.CursorPosition>
+                              <ui:CursorPosition OffsetX="95" OffsetY="23" Position="TopLeft" />
+                            </ui:Click.CursorPosition>
+                            <ui:Click.Target>
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4e12bcc8-38df-4f70-81fc-455b90e085e2" InformativeScreenshot="d396262a791a80d2aa92e2081863d153" Selector="&lt;html title='경제 통계 지표 | 재정통계 | 기획재정부 재정정보공개시스템 열린재정' /&gt;&lt;webctrl id='openLink' tag='A' /&gt;" WaitForReady="COMPLETE">
+                                <ui:Target.TimeoutMS>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:Target.TimeoutMS>
+                              </ui:Target>
+                            </ui:Click.Target>
+                          </ui:Click>
+                          <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="460,22" sap2010:WorkflowViewState.IdRef="Delay_3" />
+                          <Sequence DisplayName="기본" sap:VirtualizedContainerService.HintSize="460,1022" sap2010:WorkflowViewState.IdRef="Sequence_88">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'IMG  http://ecos.bok.or...'" sap:VirtualizedContainerService.HintSize="418,106" sap2010:WorkflowViewState.IdRef="Click_38" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+                              <ui:Click.CursorPosition>
+                                <ui:CursorPosition OffsetX="50" OffsetY="5" Position="TopLeft" />
+                              </ui:Click.CursorPosition>
+                              <ui:Click.Target>
+                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b56bb88f-4d84-4e17-a3d3-fc152cc92071" InformativeScreenshot="dd7966a591b6ff98e19ee1743b1ad85e" Selector="&lt;html title='100대 통계지표' /&gt;&lt;webctrl aaname='download' tag='IMG' /&gt;" WaitForReady="COMPLETE">
+                                  <ui:Target.TimeoutMS>
+                                    <InArgument x:TypeArguments="x:Int32" />
+                                  </ui:Target.TimeoutMS>
+                                </ui:Target>
+                              </ui:Click.Target>
+                            </ui:Click>
+                            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="418,22" sap2010:WorkflowViewState.IdRef="Delay_4" />
+                            <Sequence DisplayName="기본" sap:VirtualizedContainerService.HintSize="418,722" sap2010:WorkflowViewState.IdRef="Sequence_89">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey 'DirectUIHWND'" sap:VirtualizedContainerService.HintSize="376,154" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="s" KeyModifiers="Alt" SpecialKey="False">
+                                <ui:SendHotkey.Target>
+                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f027a175-7b7c-40e7-a6be-103a7cad8854" InformativeScreenshot="7bc64e2074b66928aeb43c81dc0da199" Selector="&lt;wnd app='iexplore.exe' cls='IEFrame' title='100대 통계지표 - Internet Explorer' idx='*' /&gt;&lt;wnd aaname='알림' cls='DirectUIHWND' /&gt;">
+                                    <ui:Target.TimeoutMS>
+                                      <InArgument x:TypeArguments="x:Int32" />
+                                    </ui:Target.TimeoutMS>
+                                    <ui:Target.WaitForReady>
+                                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                                    </ui:Target.WaitForReady>
+                                  </ui:Target>
+                                </ui:SendHotkey.Target>
+                              </ui:SendHotkey>
+                              <Sequence DisplayName="기본" sap:VirtualizedContainerService.HintSize="376,198" sap2010:WorkflowViewState.IdRef="Sequence_90">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'push button  닫기'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_39" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                  <ui:Click.CursorPosition>
+                                    <ui:CursorPosition OffsetX="26" OffsetY="4" Position="TopLeft" />
+                                  </ui:Click.CursorPosition>
+                                  <ui:Click.Target>
+                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c9639aa4-6e1b-48fe-9dcb-87d553796486" InformativeScreenshot="054c4b00fff78a7df12d8ba6941c8bea" Selector="&lt;wnd app='iexplore.exe' cls='IEFrame' title='100대 통계지표 - Internet Explorer' /&gt;&lt;ctrl idx='1' name='닫기' role='push button' /&gt;">
+                                      <ui:Target.TimeoutMS>
+                                        <InArgument x:TypeArguments="x:Int32" />
+                                      </ui:Target.TimeoutMS>
+                                      <ui:Target.WaitForReady>
+                                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                                      </ui:Target.WaitForReady>
+                                    </ui:Target>
+                                  </ui:Click.Target>
+                                </ui:Click>
+                              </Sequence>
+                              <Sequence DisplayName="기본" sap:VirtualizedContainerService.HintSize="376,198" sap2010:WorkflowViewState.IdRef="Sequence_91">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_40" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                  <ui:Click.CursorPosition>
+                                    <ui:CursorPosition OffsetX="35" OffsetY="10" Position="TopLeft" />
+                                  </ui:Click.CursorPosition>
+                                  <ui:Click.Target>
+                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="95e9dc81-b89d-4456-8a78-c03c76d2acb0" InformativeScreenshot="bbace1d740c41c037db1a874bc78120f" Selector="&lt;wnd app='iexplore.exe' cls='#32770' title='Internet Explorer' /&gt;&lt;wnd ctrlid='30980' title='모든 탭 닫기(&amp;amp;T)' /&gt;">
+                                      <ui:Target.TimeoutMS>
+                                        <InArgument x:TypeArguments="x:Int32" />
+                                      </ui:Target.TimeoutMS>
+                                      <ui:Target.WaitForReady>
+                                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                                      </ui:Target.WaitForReady>
+                                    </ui:Target>
+                                  </ui:Click.Target>
+                                </ui:Click>
+                              </Sequence>
+                            </Sequence>
+                          </Sequence>
+                        </Sequence>
+                      </Sequence>
                     </Sequence>
                   </Sequence>
                 </Sequence>
