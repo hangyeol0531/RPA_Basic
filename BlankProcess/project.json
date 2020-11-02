@@ -1,7 +1,7 @@
 {
   "name": "BlankProcess",
   "description": "빈 프로세스",
-  "main": "Main.xaml",
+  "main": "Main_5.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.9.3]",
     "UiPath.Mail.Activities": "[1.9.3]",
@@ -48,20 +48,26 @@
       "output": []
     },
     {
-      "filePath": "var3_compare.xaml",
-      "uniqueId": "199348d0-730a-4cd3-b92c-2d189320047b",
+      "filePath": "other\\100_sum.xaml",
+      "uniqueId": "277247d9-763f-4ce0-8e88-34a8209741de",
       "input": [],
       "output": []
     },
     {
-      "filePath": "100_sum.xaml",
-      "uniqueId": "0c857c40-cd46-4055-a89f-1ee21c5f508f",
+      "filePath": "other\\even_odd.xaml",
+      "uniqueId": "8a3fde5f-7402-4f6f-acdb-319dc21cbae3",
       "input": [],
       "output": []
     },
     {
-      "filePath": "even_odd.xaml",
-      "uniqueId": "ed4f2449-cc54-4240-a2b1-baf53c2ffd0c",
+      "filePath": "other\\var3_compare.xaml",
+      "uniqueId": "a996a80d-49bf-4b27-a839-91fc1cd86bf1",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Main_5.xaml",
+      "uniqueId": "ee82c8cd-41e2-4cb1-80de-b8b51bf54136",
       "input": [],
       "output": []
     }
