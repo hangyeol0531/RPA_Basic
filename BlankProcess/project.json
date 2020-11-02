@@ -42,12 +42,6 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "dbbf2472-76b6-45d9-80c1-a0e280fa77f9",
-      "input": [],
-      "output": []
-    },
-    {
       "filePath": "other\\100_sum.xaml",
       "uniqueId": "277247d9-763f-4ce0-8e88-34a8209741de",
       "input": [],
@@ -68,6 +62,12 @@
     {
       "filePath": "Main_5.xaml",
       "uniqueId": "ee82c8cd-41e2-4cb1-80de-b8b51bf54136",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Main1~4.xaml",
+      "uniqueId": "98fb1f4e-18db-4cba-8d59-ddc606555368",
       "input": [],
       "output": []
     }
