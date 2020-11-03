@@ -78,7 +78,7 @@
         <av:Size x:Key="ShapeSize">60,75</av:Size>
         <x:Double x:Key="Height">753</x:Double>
         <x:Double x:Key="Width">680</x:Double>
-        <av:PointCollection x:Key="ConnectorLocation">340,77.5 340,350 460,350</av:PointCollection>
+        <av:PointCollection x:Key="ConnectorLocation">340,77.5 340,191 460,191</av:PointCollection>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
@@ -654,21 +654,21 @@
         </Sequence>
       </Sequence>
     </FlowStep>
-    <FlowStep>
+    <FlowStep x:Name="__ReferenceID0">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">460,157</av:Point>
           <av:Size x:Key="ShapeSize">200,68</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Session5_응용하기2" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_196">
+      <Sequence DisplayName="Session5_응용하기2" sap:VirtualizedContainerService.HintSize="551,878" sap2010:WorkflowViewState.IdRef="Sequence_196">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="웹" sap:VirtualizedContainerService.HintSize="509,784" sap2010:WorkflowViewState.IdRef="Sequence_195">
+        <Sequence DisplayName="웹" sap:VirtualizedContainerService.HintSize="509,786" sap2010:WorkflowViewState.IdRef="Sequence_195">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:String" Name="aaa" />
           </Sequence.Variables>
@@ -677,13 +677,13 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="https://acme-test.uipath.com/ 열기" sap:VirtualizedContainerService.HintSize="467,692" sap2010:WorkflowViewState.IdRef="OpenBrowser_15" Url="https://acme-test.uipath.com/">
+          <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="https://acme-test.uipath.com/ 열기" sap:VirtualizedContainerService.HintSize="467,694" sap2010:WorkflowViewState.IdRef="OpenBrowser_15" Url="https://acme-test.uipath.com/">
             <ui:OpenBrowser.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,591" sap2010:WorkflowViewState.IdRef="Sequence_194">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,592" sap2010:WorkflowViewState.IdRef="Sequence_194">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:String" Name="variable1" />
                   </Sequence.Variables>
@@ -728,7 +728,7 @@
                       <OutArgument x:TypeArguments="x:String">[aaa]</OutArgument>
                     </ui:GetValue.Value>
                   </ui:GetValue>
-                  <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_15" Text="[aaa.ToString.Substring(6, 9)]" />
+                  <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,62" sap2010:WorkflowViewState.IdRef="WriteLine_15" Text="[aaa.ToString.Substring(6, 9)]" />
                 </Sequence>
               </ActivityAction>
             </ui:OpenBrowser.Body>
@@ -861,14 +861,14 @@
         </Sequence>
       </Sequence>
     </FlowStep>
-    <FlowStep x:Name="__ReferenceID0">
+    <FlowStep>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">460,316</av:Point>
           <av:Size x:Key="ShapeSize">200,68</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Session5 실습하기" sap:VirtualizedContainerService.HintSize="551,1510" sap2010:WorkflowViewState.IdRef="Sequence_212">
+      <Sequence DisplayName="Session5 실습하기" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_212">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
