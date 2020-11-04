@@ -1,7 +1,7 @@
 {
   "name": "BlankProcess",
   "description": "빈 프로세스",
-  "main": "Main_7.xaml",
+  "main": "Main_6.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.9.3]",
     "UiPath.Mail.Activities": "[1.9.3]",
