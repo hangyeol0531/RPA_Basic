@@ -56,18 +56,19 @@
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>System.ServiceModel</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart DisplayName="Main_7" sap:VirtualizedContainerService.HintSize="684,636" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart DisplayName="Main_7" sap:VirtualizedContainerService.HintSize="684,650" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <av:Point x:Key="ShapeLocation">280,2.5</av:Point>
         <av:Size x:Key="ShapeSize">60,75</av:Size>
         <x:Double x:Key="Width">650</x:Double>
-        <av:PointCollection x:Key="ConnectorLocation">310,77.5 310,467</av:PointCollection>
+        <av:PointCollection x:Key="ConnectorLocation">310,77.5 310,107.5 100,107.5 100,546</av:PointCollection>
+        <x:Double x:Key="Height">614</x:Double>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
@@ -77,10 +78,10 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">0,117</av:Point>
-          <av:Size x:Key="ShapeSize">200,66</av:Size>
+          <av:Size x:Key="ShapeSize">200,68</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Session 7_Contains" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_1">
+      <Sequence DisplayName="Session 7_Contains" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_1">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:String" Name="Str_Path" />
         </Sequence.Variables>
@@ -111,10 +112,10 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">210,117</av:Point>
-          <av:Size x:Key="ShapeSize">200,66</av:Size>
+          <av:Size x:Key="ShapeSize">200,68</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Session 7_StartsWith" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <Sequence DisplayName="Session 7_StartsWith" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_2">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:String" Name="Str_Path" />
         </Sequence.Variables>
@@ -145,10 +146,10 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">420,117</av:Point>
-          <av:Size x:Key="ShapeSize">200,66</av:Size>
+          <av:Size x:Key="ShapeSize">200,68</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Session 7_EndsWith" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <Sequence DisplayName="Session 7_EndsWith" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_3">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:String" Name="Str_Path" />
         </Sequence.Variables>
@@ -179,10 +180,10 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">0,207</av:Point>
-          <av:Size x:Key="ShapeSize">200,66</av:Size>
+          <av:Size x:Key="ShapeSize">200,68</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Session 7_Replace" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_4">
+      <Sequence DisplayName="Session 7_Replace" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_4">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:String" Name="Str_Path" />
         </Sequence.Variables>
@@ -214,10 +215,10 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">220,207</av:Point>
-          <av:Size x:Key="ShapeSize">200,66</av:Size>
+          <av:Size x:Key="ShapeSize">200,68</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Session 7_SubString" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_5">
+      <Sequence DisplayName="Session 7_SubString" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_5">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:String" Name="Str_Path" />
         </Sequence.Variables>
@@ -249,10 +250,10 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">430,207</av:Point>
-          <av:Size x:Key="ShapeSize">200,66</av:Size>
+          <av:Size x:Key="ShapeSize">200,68</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Session 7_Trim" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_6">
+      <Sequence DisplayName="Session 7_Trim" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_6">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:String" Name="Str_Path" />
         </Sequence.Variables>
@@ -284,10 +285,10 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">0,297</av:Point>
-          <av:Size x:Key="ShapeSize">200,66</av:Size>
+          <av:Size x:Key="ShapeSize">200,68</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Session 7_ToUpper" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_7">
+      <Sequence DisplayName="Session 7_ToUpper" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_7">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:String" Name="Str_Path" />
         </Sequence.Variables>
@@ -319,10 +320,10 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">220,297</av:Point>
-          <av:Size x:Key="ShapeSize">200,66</av:Size>
+          <av:Size x:Key="ShapeSize">200,68</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Session 7_ToLower" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_8">
+      <Sequence DisplayName="Session 7_ToLower" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_8">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:String" Name="Str_Path" />
         </Sequence.Variables>
@@ -354,10 +355,10 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">430,297</av:Point>
-          <av:Size x:Key="ShapeSize">200,66</av:Size>
+          <av:Size x:Key="ShapeSize">200,68</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Session 7_ToCharArray" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_9">
+      <Sequence DisplayName="Session 7_ToCharArray" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_9">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:String" Name="Str_Path" />
           <Variable x:TypeArguments="s:String[]" Name="ArrayStr_Split" />
@@ -390,10 +391,10 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">0,387</av:Point>
-          <av:Size x:Key="ShapeSize">200,66</av:Size>
+          <av:Size x:Key="ShapeSize">200,68</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Session 7_Datetime" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_10">
+      <Sequence DisplayName="Session 7_Datetime" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_10">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -407,10 +408,10 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">210,387</av:Point>
-          <av:Size x:Key="ShapeSize">200,66</av:Size>
+          <av:Size x:Key="ShapeSize">200,68</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Session 7_Array" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_11">
+      <Sequence DisplayName="Session 7_Array" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_11">
         <Sequence.Variables>
           <Variable x:TypeArguments="s:String[]" Name="AnyStr_Name" />
         </Sequence.Variables>
@@ -450,10 +451,10 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">430,377</av:Point>
-          <av:Size x:Key="ShapeSize">200,66</av:Size>
+          <av:Size x:Key="ShapeSize">200,68</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Session 7_List" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_14">
+      <Sequence DisplayName="Session 7_List" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_14">
         <Sequence.Variables>
           <Variable x:TypeArguments="s:String[]" Name="AnyStr_Name" />
           <Variable x:TypeArguments="scg:List(x:String)" Name="List_Name" />
@@ -495,10 +496,10 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">0,467</av:Point>
-          <av:Size x:Key="ShapeSize">200,66</av:Size>
+          <av:Size x:Key="ShapeSize">200,68</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Session 7_Dictionary" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_16">
+      <Sequence DisplayName="Session 7_Dictionary" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_16">
         <Sequence.Variables>
           <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="Dic_Name" />
         </Sequence.Variables>
@@ -526,45 +527,114 @@
         <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="262,61" sap2010:WorkflowViewState.IdRef="WriteLine_22" Text="[Dic_Name(&quot;people&quot;).ToString]" />
       </Sequence>
     </FlowStep>
-    <FlowStep x:Name="__ReferenceID0">
+    <FlowStep>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">210,467</av:Point>
-          <av:Size x:Key="ShapeSize">200,66</av:Size>
+          <av:Size x:Key="ShapeSize">200,68</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Session 7_pr1" sap:VirtualizedContainerService.HintSize="304,152" sap2010:WorkflowViewState.IdRef="Sequence_17">
+      <Sequence DisplayName="Session 7_pr1" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_17">
         <Sequence.Variables>
-          <Variable x:TypeArguments="x:String" Name="var1" />
+          <Variable x:TypeArguments="x:String" Default="TaxID:RO123456" Name="var1" />
+          <Variable x:TypeArguments="x:String" Default="Name:Godmother Catering" Name="var2" />
+          <Variable x:TypeArguments="x:String" Default="Address:Strada Flamanda 45" Name="var3" />
+          <Variable x:TypeArguments="x:String" Default="City : Bucuresti, Romania" Name="var4" />
+          <Variable x:TypeArguments="x:String" Default="[var1+Environment.NewLine+var2]" Name="var5" />
         </Sequence.Variables>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_24">
+        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="262,62" sap2010:WorkflowViewState.IdRef="WriteLine_24" Text="[var1.Split(&quot;:&quot;.ToCharArray)(1)]" />
+        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="262,62" sap2010:WorkflowViewState.IdRef="WriteLine_25" Text="[var2.Split(&quot;:&quot;.ToCharArray)(1)]" />
+        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="262,62" sap2010:WorkflowViewState.IdRef="WriteLine_26" Text="[var3.Split(&quot;:&quot;.ToCharArray)(0)]" />
+        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="262,62" sap2010:WorkflowViewState.IdRef="WriteLine_27" Text="[var4.Split(&quot;:&quot;.ToCharArray)(0)]" />
+        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="262,62" sap2010:WorkflowViewState.IdRef="WriteLine_28" Text="[var2.Split(&quot;&quot;.ToCharArray)(1)]" />
+        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="262,62" sap2010:WorkflowViewState.IdRef="WriteLine_29" Text="[var3.Split(&quot;&quot;.ToCharArray)(2)]" />
+        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="262,62" sap2010:WorkflowViewState.IdRef="WriteLine_30" Text="[var4.Split(&quot;&quot;.ToCharArray)(2)]" />
+        <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_22">
           <Assign.To>
-            <OutArgument x:TypeArguments="x:String">[var1]</OutArgument>
+            <OutArgument x:TypeArguments="x:String">[var5]</OutArgument>
           </Assign.To>
           <Assign.Value>
-            <InArgument x:TypeArguments="x:String">TaxID:RO123456</InArgument>
+            <InArgument x:TypeArguments="x:String">[var5.Replace(Environment.NewLine, ":")]</InArgument>
           </Assign.Value>
         </Assign>
+        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="262,62" sap2010:WorkflowViewState.IdRef="WriteLine_31" Text="[var5.Split(&quot;:&quot;.ToCharArray)(1) + Environment.NewLine + var5.Split(&quot;:&quot;.ToCharArray)(3)]" />
       </Sequence>
     </FlowStep>
     <FlowStep>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">430,467</av:Point>
-          <av:Size x:Key="ShapeSize">200,66</av:Size>
+          <av:Size x:Key="ShapeSize">200,68</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Session 7_pr2" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_18">
+      <Sequence DisplayName="Session 7_pr2" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_18">
+        <Sequence.Variables>
+          <Variable x:TypeArguments="s:String[]" Name="arr">
+            <Variable.Default>
+              <mva:VisualBasicValue x:TypeArguments="s:String[]" ExpressionText="{}{&quot;apples&quot;, &quot;lemons&quot;, &quot;mangos&quot;, &quot;apricots&quot;, &quot;pears&quot;, &quot;oranges&quot;, &quot;kiwis&quot;, &quot;banans&quot;, &quot;lychees&quot;, &quot;plums&quot;}" />
+            </Variable.Default>
+          </Variable>
+        </Sequence.Variables>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
+        <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="562,439" sap2010:WorkflowViewState.IdRef="ForEach`1_6" Values="[arr]">
+          <ui:ForEach.Body>
+            <ActivityAction x:TypeArguments="x:String">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="x:String" Name="item" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="본문" sap:VirtualizedContainerService.HintSize="526,304" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If Condition="[item.StartsWith(&quot;m&quot;)]" sap:VirtualizedContainerService.HintSize="484,212" sap2010:WorkflowViewState.IdRef="If_4">
+                  <If.Then>
+                    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="232,62" sap2010:WorkflowViewState.IdRef="WriteLine_32" Text="[item]" />
+                  </If.Then>
+                </If>
+              </Sequence>
+            </ActivityAction>
+          </ui:ForEach.Body>
+        </ui:ForEach>
+      </Sequence>
+    </FlowStep>
+    <FlowStep x:Name="__ReferenceID0">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">0,546</av:Point>
+          <av:Size x:Key="ShapeSize">200,68</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence DisplayName="Session 7_pr3" sap:VirtualizedContainerService.HintSize="274,256" sap2010:WorkflowViewState.IdRef="Sequence_19">
+        <Sequence.Variables>
+          <Variable x:TypeArguments="x:String" Name="var1">
+            <Variable.Default>
+              <Literal x:TypeArguments="x:String">r0ck_st%r</Literal>
+            </Variable.Default>
+          </Variable>
+          <Variable x:TypeArguments="x:String" Name="var2">
+            <Variable.Default>
+              <Literal x:TypeArguments="x:String" xml:space="preserve">    mock str%r</Literal>
+            </Variable.Default>
+          </Variable>
+        </Sequence.Variables>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="232,62" sap2010:WorkflowViewState.IdRef="WriteLine_34" Text="[var1.replace(&quot;_&quot;, &quot; &quot;)]" />
+        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="232,62" sap2010:WorkflowViewState.IdRef="WriteLine_35" Text="[var2.trim().Replace(&quot; &quot;, &quot;++++&quot;)]" />
       </Sequence>
     </FlowStep>
   </Flowchart>
