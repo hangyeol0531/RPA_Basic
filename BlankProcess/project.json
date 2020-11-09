@@ -1,7 +1,7 @@
 {
   "name": "BlankProcess",
   "description": "빈 프로세스",
-  "main": "Main_6.xaml",
+  "main": "Main_8.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.9.3]",
     "UiPath.Mail.Activities": "[1.9.3]",
@@ -80,6 +80,12 @@
     {
       "filePath": "Main_7.xaml",
       "uniqueId": "b8a614ad-1591-4d70-a253-ee73c18f61bf",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Main_8.xaml",
+      "uniqueId": "1e1e5e19-d0de-4afe-b770-9366c36e9fe3",
       "input": [],
       "output": []
     }
